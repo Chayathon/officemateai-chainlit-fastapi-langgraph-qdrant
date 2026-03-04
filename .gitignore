@@ -1,0 +1,30 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Docker
+.docker/
+
+# Data (ไม่ upload ไฟล์ใหญ่)
+data/*.pdf
+!data/.gitkeep
+
+# UV
+.uv/
+uv.lock
